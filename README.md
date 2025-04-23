@@ -2,6 +2,17 @@
 
 A Go microservice that receives a Brazilian zipcode (CEP), identifies the city, and returns the current temperature in Celsius, Fahrenheit, and Kelvin. This service is designed to be deployed on Google Cloud Run.
 
+## Google Cloud Link:
+
+```
+https://cep-weather-rkjaprhgxq-uc.a.run.app/
+```
+You can try diferent cep values using /weather/[cep number] endpoint:
+ 
+```
+https://cep-weather-rkjaprhgxq-uc.a.run.app/weather/01001000
+```
+
 ## Project Structure
 
 ```
